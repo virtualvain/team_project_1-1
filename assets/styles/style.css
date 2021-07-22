@@ -13,3 +13,16 @@ body {
     display: flex;
     overflow-x: auto;
 }
+
+.author::-webkit-scrollbar {
+    display: none;
+}
+
+.book::-webkit-scrollbar {
+    display: none;
+}
+
+.genres {
+    display: grid;
+
+}
