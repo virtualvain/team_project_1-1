@@ -3,6 +3,33 @@ body {
     height: 100%;
 }
 
+h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+
+}
+
+.book_name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.author_name {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+.book_author {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+.genres_name {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+
 .author {
     display: flex;
     overflow-x: auto;
@@ -24,5 +51,67 @@ body {
 
 .genres {
     display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat (3, 1fr);
 
+}
+
+.genres_fiction {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.genres_detective {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.genres_thriller {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+
+.genres_romance {
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+}
+
+.genres_travel {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.genres_sports {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.genres_science {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.genres_fantasy {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+
+.genres_young {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+
+.genres_children {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+
+.genres_classics {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+
+.genres_nature {
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
 }
