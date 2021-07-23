@@ -1,0 +1,24 @@
+.book {
+    text-align: center;
+}
+
+.book_name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.book_author {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+
+.book_edition {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    color: #828282;
+}
+
+.book_price {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
