@@ -1,0 +1,131 @@
+body {
+    margin: 0 24px 0;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 31.25px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    justify-items: center;
+    justify-self: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+.follow {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.textmeta {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #828282;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.following,
+.followers {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #4F4F4F;
+    justify-items: center;
+    justify-self: center
+}
+
+
+.classics,
+.contemporary,
+.feminst,
+.memoirs,
+.psychological,
+.true,
+.african {
+    height: 24px;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 4px 0
+}
+
+.classics {
+    background: linear-gradient(90deg, #F3A492, #D96F6E);
+}
+
+.contemporary {
+    background: linear-gradient(90deg, #F2D05C, #F3A492);
+}
+
+.feminst {
+    background: linear-gradient(90deg, #F2D05C, #F3A492);
+}
+
+.memoirs {
+    background: linear-gradient(90deg, #BBD1D9, #F2D05C);
+}
+
+.psychological {
+    background: linear-gradient(90deg, #D96F6E, #F2D05C);
+}
+
+.true,
+.african {
+    background: linear-gradient(90deg, #53889D, #BBD1D9);
+}
+
+.books,
+.wish {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.namebook1,
+.namebook2,
+.namebook3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+
+.nameautor1,
+.nameautor2,
+.nameautor3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.allbooks,
+.allwish {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #D96F6E;
+    margin: 40px 0;
+    text-align: center;
+    text-decoration: #D96F6E;
+    text-decoration: underline
+}
