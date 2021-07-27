@@ -5,6 +5,7 @@
 .book_name {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    padding: 2%;
 }
 
 .book_author {
@@ -16,11 +17,13 @@
     font-family: "Montserrat", serif;
     font-weight: 400;
     color: #828282;
+    padding: 2%;
 }
 
 .book_price {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    padding: 5%;
 }
 
 .book_blurb {
@@ -63,19 +66,21 @@
     font-weight: normal;
     color: #828282;
     text-align: center;
+    padding-top: 7%;
 }
 
 .genres {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 5%;
 }
 
 .genres_head {
     font-family: "Montserrat", serif;
     font-weight: 700;
     text-align: center;
-
+    padding-bottom: 2%;
 }
 
 .btn_contemp {
