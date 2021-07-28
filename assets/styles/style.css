@@ -6,6 +6,7 @@ body {
 h3 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    font-size: 20px;
     padding-bottom: 5%;
 
 
@@ -15,6 +16,7 @@ h3 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     padding-bottom: 2%;
+    font-size: 16px;
 }
 
 .book_image {
@@ -25,17 +27,20 @@ h3 {
 .author_name {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
     text-align: center;
 }
 
 .book_author {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .genres_name {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .genres_icon {
