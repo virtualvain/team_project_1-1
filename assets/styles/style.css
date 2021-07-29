@@ -6,27 +6,49 @@ body {
 h3 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 5%;
+
 
 }
 
 .book_name {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    padding-bottom: 2%;
+    font-size: 16px;
+}
+
+.book_image {
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 .author_name {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
+    text-align: center;
 }
 
 .book_author {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .genres_name {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
+}
+
+.genres_icon {
+    padding: 20%;
+}
+
+.author_image {
+    padding: 25%;
 }
 
 .author {
@@ -38,6 +60,7 @@ h3 {
 .book {
     display: flex;
     overflow-x: auto;
+    padding-bottom: 10%;
 }
 
 .author::-webkit-scrollbar {
@@ -52,6 +75,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat (4, 1fr);
     grid-template-rows: repeat (3, 1fr);
+
+    text-align: center;
 
 }
 

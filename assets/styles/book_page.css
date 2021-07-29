@@ -5,20 +5,126 @@
 .book_name {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    font-size: 25px;
+    padding: 2%;
 }
 
 .book_author {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 16px;
 }
 
 .book_edition {
     font-family: "Montserrat", serif;
     font-weight: 400;
+    font-size: 12px;
     color: #828282;
+    padding: 2%;
 }
 
 .book_price {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.book_blurb {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.btn_add {
+    width: 296px;
+    height: 40px;
+    text-align: center;
+    background: #D96F6E;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin: 1%;
+}
+
+.btn_wish {
+    width: 296px;
+    height: 40px;
+    background: #F3A492;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin: 1%;
+}
+
+.publisher {
+    font-family: "Montserrat", serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #828282;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.genres {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.genres_head {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.btn_contemp {
+    width: 128px;
+    height: 24px;
+    font-size: 12px;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.btn_fiction {
+    width: 128px;
+    height: 24px;
+    font-size: 12px;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.read {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
 }
