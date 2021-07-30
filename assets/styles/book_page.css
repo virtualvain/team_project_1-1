@@ -145,3 +145,49 @@ h6 {
     align-items: center;
     padding: 3%;
 }
+
+.publications {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10%;
+    align-items: center;
+
+}
+
+.publications::-webkit-scrollbar {
+    display: none;
+}
+
+.h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.publications_image {
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.publications_name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.publications_author {
+    font-size: 12px;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.publications_price {
+    font-size: 12px;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #D96F6E;
+
+}

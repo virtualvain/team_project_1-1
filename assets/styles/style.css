@@ -3,6 +3,24 @@ body {
     height: 100%;
 }
 
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.welcome {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.day {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 h3 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -63,11 +81,21 @@ h3 {
     padding-bottom: 10%;
 }
 
+.list {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10%;
+}
+
 .author::-webkit-scrollbar {
     display: none;
 }
 
 .book::-webkit-scrollbar {
+    display: none;
+}
+
+.list::-webkit-scrollbar {
     display: none;
 }
 
