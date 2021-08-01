@@ -3,6 +3,7 @@ body {
     height: 100%;
     padding-left: 4%;
     padding-right: 1.5%;
+
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     padding-right: 10%;
+    padding-bottom: 4%;
 
 }
 
@@ -68,7 +70,7 @@ h3 {
 }
 
 .genres_icon {
-    padding: 10%;
+    padding: 8%;
 }
 
 .author_image {
@@ -109,7 +111,6 @@ h3 {
     display: grid;
     grid-template-columns: repeat (4, 1fr);
     grid-template-rows: repeat (3, 1fr);
-
     text-align: center;
 
 }
